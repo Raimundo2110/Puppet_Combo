@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap</title>
+    <!--Link CSS Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/estilos.css">
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Creepster&family=Metal+Mania&display=swap" rel="stylesheet">
+    <!--Bootstrap Icons link-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  </head>
+  <body>
+      <!--Navbar-->
+    <header>
+      <nav class="navbar navbar-expand-lg d-flex">
+        <div class="container-fluid">
+          <a class="navbar-brand fs-1 text-uppercase text-light" href="#"><img class="vhs" src="./assets/images/kindpng_1269291.png" alt=""><span style="color: red;">Puppet</span> Combo Forum</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link text-light active" aria-current="page" href="#">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#">Tendencias</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#">Juegos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light disabled" aria-disabled="true">Proximamente</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <!--Carrusel de imagenes-->
+
+      <div class="container text-center text-light p-4 text-uppercase">
+        <h2 class="title-one">Sumérgete en mundos <span style="color: rgb(208, 15, 15);">aterradores!</span></h2>
+      </div>
+
+      <section class="container-fluid d-flex">
+        <div id="carouselExample" class="carousel slide container p-3 w-75">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="https://bloody-disgusting.com/wp-content/uploads/2022/10/stayoutofthehouse.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="https://i.ytimg.com/vi/jhCo2HSqKYA/maxresdefault.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="https://www.destructoid.com/wp-content/uploads/2021/09/Screen_Bloodwash07-scaled.jpg" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+
+      <!--Cards-->
+
+      <div class="container text-center text-uppercase text-light">
+        <h2 class="title-one">Títulos <span style="color: red;">más</span> relevantes</h2>
+      </div>
+
+      <hr class="border-3 border-dark">
+      <section class="container-fluid row m-0">
+
+        <div class="card container p-1 text-center col-12 col-md-6 col-lg-3 bg-black text-light" style="width: 15rem;">
+          <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1598160/capsule_616x353.jpg?t=1669831153" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">BloodWash</h5>
+            <p class="card-text">.</p>
+            <a href="#" class="btn btn-black text-light border-light">Leer más!</a>
+          </div>
+        </div>
+
+        <div class="card container p-1 text-center col-12 col-md-6 col-lg-3 bg-black text-light" style="width: 15rem;">
+          <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1064460/header.jpg?t=1669836425" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Murder House</h5>
+            <p class="card-text">.</p>
+            <a href="#" class="btn btn-black text-light border-light">Leer más!</a>
+          </div>
+        </div>
+
+        <div class="card container p-1 text-center col-12 col-md-6 col-lg-3 bg-black text-light" style="width: 15rem;">
+          <img src="https://i.redd.it/oix3f4dh59hd1.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Rewind Or Die</h5>
+            <p class="card-text">.</p>
+            <a href="#" class="btn btn-black text-light border-light">Leer más<small></small>!</a>
+          </div>
+        </div>
+
+        <div class="card container p-1 text-center col-12 col-md-6 col-lg-3 bg-black text-light" style="width: 15rem;">
+          <img src="https://theeliteinstitute.net/wp-content/uploads/2022/05/image_2022-05-27_180233096.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Nun Massacre</h5>
+            <p class="card-text">.</p>
+            <a href="#" class="btn btn-black text-light border-light">Leer más!</a>
+          </div>
+        </div>
+      </section>
+      
+      <!--Videos y contenido de juego-->
+
+      <div class="container mt-5 d-flex justify-content-between align-items-center">
+        <div class="col text-center text-light m-5">
+          <h4 class="text-uppercase mb-5 font-video fs-2">Stay Out Of The House</h4>
+          <p class="fs-5 font-video-2">Descripción. Manténganse fuera de la casa es un sim de escape de asesino en serie realista. Has sido secuestrado y mantenido cautivo en la casa de un carnicero caníbal. Y es sólo cuestión de tiempo hasta que cenéis. Escapar como puedas.</p>
+          <a href="#" class="btn btn-black text-light border-light mt-2">Leer más<small></small>!</a>
+        </div>
+        <div class="col m-5">
+          <iframe class="video" width="100%" height="300px" src="https://www.youtube.com/embed/sQ_dX0KL1H0" title="Stay Out of the House Gameplay - Puppet Combo Horror Game - Part 3" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+      </div>
+
+      <div class="container mt-5 d-flex justify-content-between align-items-center">
+        <div class="col m-5">
+          <iframe class="video" width="100%" height="300px" src="https://www.youtube.com/embed/eCe2GY_N9mI" title="Night at the Gates of Hell (Switch) Review" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <div class="col text-center text-light m-5">
+          <h4 class="text-uppercase mb-5 font-video fs-2">Night At the Gates of Hell</h4>
+          <p class="fs-5 font-video-2">Night at the Gates of Hell es un juego de terror de zombis de supervivencia de 2022 desarrollado por Jordan King y Henry Hoare, y publicado por Torture Star Video.</p>
+          <a href="#" class="btn btn-black text-light border-light mt-2">Leer más<small></small>!</a>
+        </div>
+      </div>
+    </main>
+
+    <!--Footer-->
+
+    <footer>
+      <div class="container-fluid py-5 mt-5 bg-black d-flex justify-content-center gap-5">
+        <a class="text-decoration-none" href="#"><i class="bi bi-facebook text-light">Facebook</i></a>
+        <a class="text-decoration-none" href="#"><i class="bi bi-discord text-light">Discord</i></a>
+        <a class="text-decoration-none" href="#"><i class="bi bi-google-play text-light">Google Play</i></a>
+        <a class="text-decoration-none" href="#"><i class="bi bi-nintendo-switch text-light">Switch</i></a>
+        <a class="text-decoration-none" href="#"><i class="bi bi-youtube text-light">Youtube</i></a>
+        <a class="text-decoration-none" href="#"><i class="bi bi-github text-light">GitHub</i></a>
+        <a class="text-decoration-none" href="#"><i class="bi bi-question-circle text-light">Preguntas</i></a>
+      </div>
+    </footer>
+    <!--Scripts Bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
