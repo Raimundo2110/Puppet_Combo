@@ -1,0 +1,46 @@
+/*---------------------------Estilos generales-------------------------------*/
+*{
+    scrollbar-color: rgb(99, 6, 6) rgb(0, 0, 0);
+}
+
+body{
+    background-image: url(../assets/images/ss_0e178fd95f5bd0ab456ad9371d05559e816b5099.1920x1080.jpg);
+    background-size:cover;
+}
+.navbar{
+    background-color: rgb(0, 0, 0);
+    border-bottom: 1px solid white;
+}
+.navbar-brand{
+    font-family: "Metal Mania";
+}
+
+/*-----------------------Animacion vhs de navbar--------------------------*/
+
+.vhs{
+    width: 70px;
+    height: 60px;
+    padding-right: 15px;
+    animation: rotar 5s linear infinite;
+}
+
+@keyframes rotar{
+    from{
+        transform: rotateY(180deg);
+    }
+    to{
+        transform: rotateY(-180deg);
+    }
+}
+
+/*-------------------------Estilos para el formulario------------------------*/
+
+.form-control{
+    background: transparent;
+}
+.form-title{
+    font-family: "Creepster";
+    color: white;
+    background-color: rgb(0, 0, 0);
+    border-radius: 5px;
+}
